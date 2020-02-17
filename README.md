@@ -1,8 +1,8 @@
 # UX portfolio template 1920
 
-## Name:
+## Name: Yaro De Waegenaere
 
-## Group:
+## Group: 1AVDa
 
 ## Getting Started
 

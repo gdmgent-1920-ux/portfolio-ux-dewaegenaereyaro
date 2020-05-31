@@ -1,0 +1,276 @@
+*{
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+}
+
+article,aside,figcaption,figure,footer,header,hgroup,main,nav,section {
+display:block;
+}
+
+html,body{
+  margin:0;
+  height:120%;
+  font-family: 'Josefin Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'highest_dafontregular';
+    src: url('../fonts/highest-webfont.woff2') format('woff2'),
+         url('../fonts/highest-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img{
+	width: 100%;
+}
+h1{
+  font-size: 1.4em;
+}
+h2{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 1.7em;
+	margin-bottom: 70px;
+
+}
+h3{
+	text-align: center;
+	font-size: 1.2em;
+  color: #77a424;
+}
+#gt{
+  text-shadow: 0px 0px 1em #000000;
+}
+h5{
+	text-align: center;
+	font-size: 1.9em;
+}
+a{
+  text-decoration: none;
+}
+#onsalespan{
+	border-bottom: 3px solid black;
+	padding-bottom: 8px;
+}
+#onsale figure img,#onsale2 figure img,#onsale3 figure img{
+  transition: transform .3s ease;
+}
+#onsale figure img:hover,#onsale2 figure img:hover,#onsale3 figure img:hover{
+  transform: scale(1.06);
+}
+
+#banner1{
+  height: 650px;
+  background-image: url(../images/banner1.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+.citaat{
+  color: #77a424;
+}
+blockquote{
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px 0 50px 0;
+}
+#bigquote{
+  color: #77a424;
+  font-size: 3em;
+  font-family: 'highest_dafontregular';
+  position: relative;
+  top: 12px;
+}
+#tinyquote{
+  color: #77a424;
+  font-size: 1.7em;
+  font-family: 'highest_dafontregular';
+  position: relative;
+  top: 8px;
+}
+
+#np{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#onsale{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#onsale figure{
+	width: 70%;
+	padding: 50px;
+	margin: 0 auto;
+}
+
+.col{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  margin: 0 5% 0 5%;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 120px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#navh {
+  background: black;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+
+nav {
+  float: right;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #77a424;
+  -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: solid black 5px;
+  padding: 50px 0 20px 0;
+  line-height: 120%;
+}
+
+#footerdiv1{
+  margin-left: 2%;
+}
+
+#footerdiv2{
+  text-align: right;
+  margin-right: 2%;
+}
+
+#footerdiv2 p{
+  color: #77a424;
+}
+
+h7{
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+#icons{
+  display: flex;
+  flex-direction: row;
+}
+
+#icons figure{
+  width: 10%;
+  cursor: pointer;
+}
+
+#icons figure img{
+  transition: transform .3s ease;
+}
+
+#icons figure img:hover{
+  transform: scale(1.04);
+}
+
+@media only screen and (max-width:812px){
+
+  .header .info{
+    padding-top: 32%;
+  }
+  footer{
+    flex-direction: column;
+  }
+  #footerdiv2{
+    text-align: left;
+    padding: 50px 0 0 2%;
+  }
+  #icons figure{
+    width: 10%;
+  }
+  nav{
+    float: none;
+    margin: 0 auto;
+  }
+  #navh{
+    height: 240px;
+  }
+  nav ul{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   margin-left: 0%;
+  }
+  .row{
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+   nav li{
+    margin: 0 35%;
+  }
+  nav a{
+    font-size: 1.4em;
+  }
+    .seeprice{
+    margin-bottom: 60px;
+  }
+  
+}
+
+
+@media only screen and (max-width:599px){
+
+   .header .info{
+    padding-top: 48%;
+  }
+
+}
+
+
+
+
+

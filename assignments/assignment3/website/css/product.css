@@ -1,0 +1,110 @@
+#product{
+	display: flex;
+	flex-direction: row;
+	text-align: right;
+	width: 75%;
+	margin: 50px auto;
+	border: 1px solid grey;
+	padding: 50px;
+}
+#product div{
+	display: flex;
+	flex-direction: column;
+}
+#product figure{
+	width: 70%;
+}
+#productnaam{
+	font-size: 4.5em;
+	text-align: right;
+	margin: 120px 0 20px 0;
+}
+#productbeschrijving{
+	font-size: 1.1em;
+	margin: 5px 0 10px 40%;
+	line-height: 140%;
+}
+#productprijs{
+	font-size: 1.7em;
+	margin-top: 12px;
+}
+#kopen{
+	font-size: 1.7em;
+	margin-top: 15px;
+}
+#kopenspan{
+	background-color: black;
+	color: white;
+	padding: 12px 7px 5px 7px;
+	border-radius: 50px;
+}
+#gallery{
+	display: flex;
+	flex-direction: column;
+}
+#gallery div{
+	display: flex;
+	flex-direction: row;
+}
+#gallery{
+	line-height: 0;
+	width: 80%;
+	margin: 150px auto;
+	justify-content: 
+}
+#gallery div{
+	justify-content: center;
+}
+#gallery #fig2{
+	width: 40%;
+	margin: 0 auto
+}
+#atur{
+	border-bottom: 3px solid black;
+	padding-bottom: 5px;
+}
+
+#featur{
+	margin-bottom: 35px;
+}
+#descr{
+	background-image: url(../images/descr.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	margin-bottom: 100px;
+}
+.descrli{
+	margin: 35px 0 35px 35px;
+	color: white;
+}
+#gallerytwo{
+	display: none;
+}
+#gallerytwo div{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.clickhere{
+	cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width:812px){
+
+	#product{
+		flex-direction: column;
+		width: 66%;
+	}
+	#product figure, #product #fg2{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+
+}
